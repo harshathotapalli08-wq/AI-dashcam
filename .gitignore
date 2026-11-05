@@ -1,0 +1,25 @@
+# Models and large files (add manually, or use Git LFS)
+models/yolo/*
+!models/yolo/PUT_MODELS_HERE.txt
+*.onnx
+*.pt
+*.param
+*.bin
+*.mp4
+!media/*.mp4
+*.webm
+
+# Outputs generated at run time
+incident_clips/
+incident_clips_local/
+dms_incident_log.csv
+dms_live_test_output.mp4
+all_models_fps_fixed_output.mp4
+
+# Environment / IDE / OS
+.venv/
+venv/
+__pycache__/
+.vscode/
+.DS_Store
+Thumbs.db

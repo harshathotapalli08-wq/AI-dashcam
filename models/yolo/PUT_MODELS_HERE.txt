@@ -1,0 +1,5 @@
+Place your trained models here (they are NOT uploaded to git, see .gitignore):
+  best.onnx              driver-monitoring model (phone, seatbelt, cigarette, smoking)
+  best_ncnn_model/       accident model (NCNN folder)
+The vehicle/person NCNN model path is set by VEHICLE_MODEL near line 623 of final_code.py
+(default: ~/Downloads/vehicle_person_extract/best_ncnn_model). Change it to match your machine.

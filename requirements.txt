@@ -1,0 +1,11 @@
+# Python packages (install inside a virtual environment on the Raspberry Pi)
+numpy
+opencv-python
+torch
+ultralytics
+onnxruntime
+mediapipe
+pyserial
+smbus2
+# Picamera2 is installed with the system packages:  sudo apt install python3-picamera2
+# NCNN models are loaded through Ultralytics (pip install ncnn if it asks for it).
